@@ -8,6 +8,19 @@ body {
     margin:0 auto;
 }
 
+.item p {
+    display: inline-block;
+}
 h1, h2, p {
     text-align: center;
 }
+
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+  }
+  
+  .price {
+    text-align: right;
+    width: 25%;
+  }
