@@ -1,0 +1,64 @@
+body {
+    font-family: Verdana;
+    background: #e6f2ff;
+    margin: 50px auto;
+    
+   
+  }
+  
+  div {
+  
+    margin: 0 0 30px;
+  }
+  
+  #title {
+    font-size: 2.3em;
+    margin: 5px;
+  }
+  
+  #description {
+    font-size: 1em;
+    font-style: italic;
+    margin: 0;
+  }
+  
+  .center {
+     text-align: center;
+  }
+  
+  form {
+    width:60vw;
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 18px 25px;
+    background-color: #3745a4;
+    border-radius: 16px;
+    color: white;
+  }
+  
+  fieldset {
+      border: none;
+      padding: 1rem 0;
+      
+  }
+  
+  
+  input, select, textarea {
+    margin: 18px 0;
+    font-size: 1rem;
+    width: 100%;
+    background-color: white;
+    min-height: 2em;
+    border-radius: 10px;
+    border: none;
+    padding: 1rem;
+  }
+  
+  .inline {
+    width: unset;
+    vertical-align: middle;
+  }
+  
+  /* input[type="radio"]{
+    
+  } */
