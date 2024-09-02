@@ -30,6 +30,14 @@ p {
     margin: 2px 0;
 }
 
+.large {
+    height: 10px;
+}
+
+.large, .medium {
+    background-color: black;
+}
+
 .bold {
     font-weight: 800;
 }
