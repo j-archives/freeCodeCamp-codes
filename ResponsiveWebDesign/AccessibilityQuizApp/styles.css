@@ -104,3 +104,12 @@ section {
 .info {
     padding: 10px 0 0 5px;
 }
+
+.formrow {
+    margin-top: 5px;
+    padding: 0 10px;
+}
+
+input {
+    font-size: 13px;
+  }
