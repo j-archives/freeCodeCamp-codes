@@ -91,6 +91,12 @@ li > a {
     border: 0;
 }
 
+h3 {
+    margin-top: 5px;
+    padding-left: 15px;
+    font-size: 22px;
+}
+
 h3::before {
     content: "Question #";
 }
@@ -112,4 +118,31 @@ section {
 
 input {
     font-size: 13px;
-  }
+}
+
+.info > input {
+    width: 50%;
+    text-align: left;
+}
+
+.info > label {
+    width: 10%;
+    min-width: 55px;
+    text-align: right;
+}
+
+.info > label::after {
+    content: ":";
+}
+
+.info label, .info input {
+    display: inline-block;
+}
+
+.question-block {
+    text-align: left;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 5px;
+}
