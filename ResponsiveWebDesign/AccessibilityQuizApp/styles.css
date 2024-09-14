@@ -176,3 +176,8 @@ footer {
 footer, footer a {
     color: #f5f6f7;
 }
+
+address {
+    padding: 18px 15px;
+    text-align: center;
+}
