@@ -1,6 +1,6 @@
 body {
     background-color: white ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Arimo', sans-serif;
     color: #333333;
 }
   
@@ -28,8 +28,9 @@ main {
 }
 
 #title {
-    font-size: 50px;
-    padding: 100px 15px;
+    font-size: 55px;
+    font-weight: 900;
+    padding: 70px 15px 15px;
     width: 100%;
     text-align: center;
     margin: 0 auto;
