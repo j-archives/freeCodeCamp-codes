@@ -9,6 +9,7 @@ body {
     color: #333333;
     box-sizing: border-box;
     font-family: sans-serif;
+    font-size: 20px;
     margin: 0;
 }
   
@@ -64,7 +65,6 @@ main {
 }
 
 .subtext {
-    font-size: 20px;
     text-align: center;
     font-weight: 100;
 }
@@ -88,11 +88,23 @@ ul > li {
     margin: 10px auto;
     width: 60%;
     max-width: 100%;
-    font-size: 20px;
     letter-spacing: 1px;
     line-height: 40px;
 }
 
-span {
+.bold {
     font-weight: bold;
+}
+
+#paragraph-outro {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    max-width: 100%;
+    margin: 50px auto;
+    text-align: justify;
+    font-style: italic;
+    line-height: 35px;
+    letter-spacing: 1px;
+    gap: 25px;
 }
