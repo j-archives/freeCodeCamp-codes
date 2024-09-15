@@ -1,19 +1,26 @@
 body {
-    background-color: white ;
-    font-family: 'Arimo', sans-serif;
+    background-color: white;
     color: #333333;
     box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
 }
   
 
 main {
     background-color: #eeeeee;
-    margin: 40px 3px;
+    margin: 40px auto;
+    width: 1320px;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 #image {
-    width: 100%;
+    width: 98%;
     max-width: 100%;
     height: auto;
 }
@@ -26,10 +33,12 @@ main {
     justify-content: center;
     align-items: center;
     width: 97%;
+    padding: 0 5px;
 }
 
 #title {
-    font-size: 55px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 50px;
     font-weight: 900;
     padding: 70px 15px 15px;
     width: 100%;
@@ -40,4 +49,10 @@ main {
 .subtext {
     font-size: 20px;
     text-align: center;
+    font-weight: 100;
+}
+
+#img-caption {
+    padding: 25px 5px;
+    
 }
