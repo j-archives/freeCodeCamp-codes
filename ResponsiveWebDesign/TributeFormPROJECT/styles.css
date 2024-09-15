@@ -60,6 +60,9 @@ main {
 }
 
 #img-caption {
-    padding: 25px 5px;
+    padding: 25px;
+    width: 97%;
+    max-width: 100%;
+    font-size: 22px;
     
 }
