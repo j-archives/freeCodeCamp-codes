@@ -2,6 +2,7 @@ body {
     background-color: white ;
     font-family: 'Arimo', sans-serif;
     color: #333333;
+    box-sizing: border-box;
 }
   
 
@@ -12,7 +13,7 @@ main {
 }
 
 #image {
-    width: 900px;
+    width: 100%;
     max-width: 100%;
     height: auto;
 }
