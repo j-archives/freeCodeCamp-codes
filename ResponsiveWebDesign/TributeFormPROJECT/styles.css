@@ -92,3 +92,7 @@ ul > li {
     letter-spacing: 1px;
     line-height: 40px;
 }
+
+span {
+    font-weight: bold;
+}
