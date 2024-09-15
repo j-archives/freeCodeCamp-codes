@@ -75,3 +75,20 @@ main {
     max-width: 100%;
     font-size: 22px;
 }
+
+ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: justify;
+}
+
+ul > li {
+    margin: 10px auto;
+    width: 60%;
+    max-width: 100%;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
