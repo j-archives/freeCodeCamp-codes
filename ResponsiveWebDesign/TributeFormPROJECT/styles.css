@@ -58,9 +58,9 @@ main {
 }
 
 #timeline-title {
-    font-size: 23px;
-    
+    font-size: 25px;
     text-align: center;
+    padding: 55px;
 }
 
 .subtext {
