@@ -1,13 +1,14 @@
 body {
     background-color: white ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333333;
 }
   
 
 main {
-    background-color: lightgray;
+    background-color: #eeeeee;
     margin: 30px 5px;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 #image {
