@@ -11,6 +11,7 @@ main {
     background-color: #eeeeee;
     margin: 40px auto;
     width: 1320px;
+    max-width: 100%;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
