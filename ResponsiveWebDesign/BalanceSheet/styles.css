@@ -8,16 +8,16 @@ body {
 }
 
 span[class~="sr-only"] {
-    position: absolute;
-    padding: 0;
-    margin: -1px;
     border: 0;
-    clip: rect(1px, 1px, 1px, 1px);
-    clip-path: inset(50%);
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    white-space: nowrap;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 0;
+  margin: -1px;
 }
 
 h1 {
@@ -44,4 +44,22 @@ section {
     max-width: 40rem;
     margin: 0 auto;
     border: 2px solid #d0d0d5;
+}
+
+#years {
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    color: #fff;
+    background-color: #0a0a23;
+    margin: 0 -2px;
+    padding: 0.5rem calc(1.25rem + 2px) 0.5rem 0;
+}
+
+#years span[class] {
+    font-weight: bold;
+    width: 4.5rem;
+    text-align: right;
 }
