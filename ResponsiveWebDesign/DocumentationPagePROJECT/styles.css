@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+#nav-doc {
+    width: 300px;
+    padding: 5px 30px;
+    background-color: #a3b18a;
+}
+
+#main-doc {
+    background-color: #fefae0;
+    width: 90%;
+}
