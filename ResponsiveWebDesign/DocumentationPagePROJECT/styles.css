@@ -11,25 +11,33 @@ body {
 
 #nav-doc {
     width: 300px;
-    padding: 2px 30px 15px;
-    background-color: #a3b18a;
+    /* background-color: #a3b18a; */
+    border-right: 3px solid #9999a1;
 }
 
 #main-doc {
-    background-color: #fefae0;
+    /* background-color: #fefae0; */
     width: 90%;
-    padding: 5px 37px;
 }
 
 .main-title {
     font-size: 25px;
     font-weight: 600;
+    padding-left: 25px;
 }
 
+
+.nav-div {
+    border-top: 1px solid #111;
+}
 .nav-div li a {
     text-decoration: none;
+    
 }
 
-.nav-div li {
-    
+.nav-div ul li{
+    margin-left: -39px;
+    list-style: none;
+    background-color: red;
+    border-top: 1px solid #111;
 }
