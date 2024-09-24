@@ -29,7 +29,7 @@ body {
 }
 
 #main-doc {
-    background-color: #fefae0;
+    /* background-color: #fefae0; */
     width: 90%;
     padding-top: 17px;
 }
@@ -60,5 +60,5 @@ body {
 }
 
 .main-paragraph {
-    padding-left: 45px;
+    padding: 10px 45px;
 }
