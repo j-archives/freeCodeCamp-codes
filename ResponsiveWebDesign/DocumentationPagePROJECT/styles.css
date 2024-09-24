@@ -63,3 +63,13 @@ body {
     padding: 10px 45px;
     line-height: 20px;
 }
+
+.main-section ul {
+    padding-left: 100px;
+    padding-right: 50px;
+    line-height: 20px;
+}
+
+.main-section ul li {
+    margin-bottom: 17px;
+}
