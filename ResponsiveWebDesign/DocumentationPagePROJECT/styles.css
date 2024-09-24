@@ -13,14 +13,14 @@ body {
 
 #navbar {
     position: fixed;
-    width: 300px;
+    width: 280px;
     height: 910px;
     /* background-color: #a3b18a; */
     border-right: 3px solid #9999a1;
 }
 
 #nav-placeholder {
-    width: 325px;
+    width: 300px;
     background-color: white;
 }
 
@@ -50,7 +50,7 @@ body {
 .main-title {
     font-size: 25px;
     font-weight: 600;
-    padding: 1px 0 0px 27px;
+    padding: 20px 0 25px 27px;
     color: #111;
 }
 
