@@ -87,3 +87,43 @@ code {
     /* padding-left: 50px; */
 }
 
+@media (max-width: 768px) {
+    body {
+        display: block;
+    }
+
+    #nav-placeholder {
+        display: hidden;
+    }
+
+    #navbar {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        margin: 10px auto;
+        border: none;
+    }
+
+    #navbar header {
+        text-align: center;
+    }
+
+    .nav-div {
+        width: inherit;
+        height: 175px;
+        margin: 10px auto;
+        overflow-y: auto;
+        border: 2px solid darkslategray;
+    }
+
+    #main-doc {
+        margin-top: 150px;
+    }
+}
+
+@media (min-width: 769px) and (max-width:1199px) {
+    #main-doc {
+        margin-left: 20px;
+    }
+}
+
