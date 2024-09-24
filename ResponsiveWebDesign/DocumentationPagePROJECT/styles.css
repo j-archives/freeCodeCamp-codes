@@ -7,6 +7,8 @@ body {
     display: flex;
     flex-direction: row;
     margin: 0;
+    color: darkslategray;
+    font-size: 13px;
 }
 
 #nav-doc {
@@ -26,16 +28,9 @@ body {
     width: 90%;
 }
 
-.main-title {
-    font-size: 25px;
-    font-weight: 600;
-    padding: 1px 0 13px 27px;
-
-}
-
 .nav-div li a {
     text-decoration: none;
-    color: darkslategray;
+    color: inherit;
     
 }
 
@@ -49,4 +44,15 @@ body {
     font-size: 0.9rem;
     list-style: none;
     border-top: 1px solid #111;
+}
+
+.main-title {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 1px 0 0px 27px;
+    color: #111;
+}
+
+.main-paragraph {
+    padding-left: 45px;
 }
