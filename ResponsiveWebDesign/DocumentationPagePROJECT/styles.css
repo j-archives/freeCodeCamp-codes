@@ -10,34 +10,43 @@ body {
 }
 
 #nav-doc {
+    position: fixed;
     width: 300px;
     /* background-color: #a3b18a; */
     border-right: 3px solid #9999a1;
 }
 
+#nav-placeholder {
+    width: 325px;
+    background-color: white;
+}
+
 #main-doc {
-    /* background-color: #fefae0; */
+    background-color: #fefae0;
     width: 90%;
 }
 
 .main-title {
     font-size: 25px;
     font-weight: 600;
-    padding-left: 25px;
+    padding: 1px 0 13px 27px;
+
 }
 
-
-.nav-div {
-    border-top: 1px solid #111;
-}
 .nav-div li a {
     text-decoration: none;
+    color: darkslategray;
     
+}
+
+.nav-div ul {
+    margin-top: -10px;
 }
 
 .nav-div ul li{
     margin-left: -39px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
     list-style: none;
-    background-color: red;
     border-top: 1px solid #111;
 }
