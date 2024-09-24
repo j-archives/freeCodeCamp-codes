@@ -25,7 +25,6 @@ body {
 
 #nav-placeholder {
     width: 300px;
-    background-color: white;
 }
 
 #main-doc {
@@ -124,6 +123,10 @@ code {
 @media (min-width: 769px) and (max-width:1199px) {
     #main-doc {
         margin-left: 20px;
+    }
+
+    #nav-placeholder {
+        width: 410px;
     }
 }
 
