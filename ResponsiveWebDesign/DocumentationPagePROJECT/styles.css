@@ -11,9 +11,10 @@ body {
     font-size: 13px;
 }
 
-#nav-doc {
+#navbar {
     position: fixed;
     width: 300px;
+    height: 910px;
     /* background-color: #a3b18a; */
     border-right: 3px solid #9999a1;
 }
