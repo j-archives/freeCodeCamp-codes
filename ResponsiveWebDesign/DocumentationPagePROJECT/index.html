@@ -71,7 +71,7 @@
             </section>
             <section id="main-js" class="main-section">
                 <h1 class="main-title">JavaScript and Java</h1>
-                <p>
+                <p class="main-paragraph">
                     JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language
                     resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression
                     syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to
@@ -90,16 +90,16 @@
             </section>
             <section id="main-hello-world" class="main-section">
                 <h1 class="main-title">Hello world</h1>
-                <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+                <p class="main-paragraph">To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
                 <code>
                     function greetMe(yourName) { alert("Hello " + yourName); }
                     greetMe("World");
                 </code>
-                <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
+                <p class="main-paragraph">Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
             </section>
             <section id="main-variable" class="main-section">
                 <h1 class="main-title">Variables</h1>
-                <p>
+                <p class="main-paragraph">
                     You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform
                     to certain rules.
                     <br><br>
@@ -113,34 +113,34 @@
             </section>
             <section id="main-declare" class="main-section">
                 <h1 class="main-title">Declaring variables</h1>
-                <p>
+                <p class="main-paragraph">
                     You can declare a variable in three ways: <br>
                     With the keyword var. For example,
                 </p>
                 <code>
                     var x = 42.
                 </code>
-                <p>
+                <p class="main-paragraph">
                     This syntax can be used to declare both local and global variables. <br>
                     By simply assigning it a value. For example,
                 </p>
                 <code>
                     x = 42.
                 </code>
-                <p>
+                <p class="main-paragraph">
                     This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant. <br><br>
                     With the keyword let. For example,
                 </p>
                 <code>
                     let y = 13.
                 </code>
-                <p>
+                <p class="main-paragraph">
                     This syntax can be used to declare a block scope local variable. See Variable scope below.
                 </p>
             </section>
             <section id="main-variable-scope" class="main-section">
                 <h1 class="main-title">Variable scope</h1>
-                <p>
+                <p class="main-paragraph">
                     When you declare a variable outside of any function, it is called a global variable, because it is available to any
                     other code in the current document. When you declare a variable within a function, it is called a local variable,
                     because it is available only within that function.
@@ -153,7 +153,7 @@
                 <code>
                     if (true) { var x = 5; } console.log(x); // 5
                 </code>
-                <p>This behavior changes, when using the let declaration introduced in ECMAScript 2015.</p>
+                <p class="main-paragraph">This behavior changes, when using the let declaration introduced in ECMAScript 2015.</p>
                 <code>
                     if (true) { let y = 5; } console.log(y); // ReferenceError: y is
                     not defined
@@ -161,7 +161,7 @@
             </section>
             <section id="main-global" class="main-section">
                 <h1 class="main-title">Global variables</h1>
-                <p>
+                <p class="main-paragraph">
                     Global variables are in fact properties of the global object. In web pages the global object is window, so you can set
                     and access global variables using the window.variable syntax.
                     <br><br>
@@ -172,13 +172,13 @@
             </section>
             <section id="main-constants" class="main-section">
                 <h1 class="main-title">Constants</h1>
-                <p>
+                <p class="main-paragraph">
                     You can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the same as
                     for a variable identifier: it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric,
                     or underscore characters.
                 </p>
                 <code>const PI = 3.14;</code>
-                <p>
+                <p class="main-paragraph">
                     A constant cannot change value through assignment or be re-declared while the script is running. It has to be
                     initialized to a value.
                     <br><br>
@@ -192,7 +192,7 @@
                     WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
                     //statements }
                 </code>
-                <p>However, object attributes are not protected, so the following statement is executed without problems.</p>
+                <p class="main-paragraph">However, object attributes are not protected, so the following statement is executed without problems.</p>
                 <code>
                     const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =
                     "otherValue";
@@ -200,7 +200,7 @@
             </section>
             <section id="main-data-types" class="main-section">
                 <h1 class="main-title">Data types</h1>
-                <p>The latest ECMAScript standard defines seven data types:</p>
+                <p class="main-paragraph">The latest ECMAScript standard defines seven data types:</p>
                 <ul>
                     <li>Six data types that are primitives:
                         <ul>
@@ -214,7 +214,7 @@
                     </li>
                     <li>and Object</li>
                 </ul>
-                <p>Although these data types are a relatively small amount, they enable you to perform useful functions with your applications. Objects and functions are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.</p>
+                <p class="main-paragraph">Although these data types are a relatively small amount, they enable you to perform useful functions with your applications. Objects and functions are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.</p>
 
             </section>
             <section id="" class="main-section">
